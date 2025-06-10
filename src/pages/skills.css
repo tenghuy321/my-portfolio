@@ -1,0 +1,36 @@
+.skill-behind {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.skill-behind::before {
+  content: "ATTAINMENTS";
+  position: absolute;
+  top: -4rem;
+  left: 2rem;
+  font-size: 100px;
+  font-weight: 700;
+  color: black;
+  opacity: 0.2;
+}
+
+@media (min-width: 1024px) and (max-width:1279px) {
+  .skill-behind::before {
+    font-size: 80px;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 1023px) {
+  .skill-behind::before {
+    top: -2rem;
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 639px) {
+  .skill-behind::before {
+    top: -1rem;
+    font-size: 30px;
+  }
+}
