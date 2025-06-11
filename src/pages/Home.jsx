@@ -26,8 +26,8 @@ const Home = () => {
                     <a href="https://t.me/Teng_huy" className='animate-bounce text-[14px] flex items-center justify-center xl:text-[18px] w-full xl:w-[200px] font-[700] border border-[#000] text-[#000] px-8 py-3 rounded-full'>Contact me</a>
                 </div>
             </div>
-            <div className='w-full h-full flex items-center justify-center'>
-                <div className='px-4 pt-4 w-1/2 h-auto bg-[#d9bb59] rounded-md'>
+            <div className='w-full h-full flex items-center justify-center mb-10 md:mb-0'>
+                <div className='px-4 pt-4 w-full md:w-2/3 h-auto bg-[#d9bb59] rounded-md'>
                     <img src={profile} alt="img-1" className='w-full h-auto' />
                 </div>
             </div>

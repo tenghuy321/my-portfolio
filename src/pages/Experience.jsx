@@ -13,13 +13,13 @@ const Experience = () => {
         {
             id: 2,
             title: 'Front-End Developer at Seed Media',
-            duration: '(2023 - 2024)',
+            duration: '(2022 - 2024)',
             description: 'Developed responsive and interactive front-end interfaces using HTML, CSS, and JavaScript. Collaborated closely with designers to implement visually appealing and user-friendly websites.'
         },
         {
             id: 3,
             title: 'Freelance Web Developer',
-            duration: '(2022 - 2023)',
+            duration: '(2021 - 2022)',
             description: 'Worked on various freelance projects, creating custom websites for clients across different industries. Improved problem-solving skills and adaptability to client needs.'
         }
     ]

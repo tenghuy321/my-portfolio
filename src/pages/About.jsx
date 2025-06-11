@@ -41,8 +41,8 @@ const About = () => {
           </div>
         </div>
         <div className='md:col-span-4 flex flex-col items-center justify-center text-center border border-black py-10 h-full sm:h-1/2 md:h-full'>
-          <h1 className='text-[70px] md:text-[100px] lg:text-[150px] font-[700] leading-none'>01</h1>
-          <p>Year Experince</p>
+          <h1 className='text-[70px] md:text-[100px] xl:text-[150px] font-[700] leading-none'>02</h1>
+          <p> Year Experinces</p>
         </div>
       </div>
     </div>

@@ -39,6 +39,7 @@
 
 @media (min-width: 1024px) and (max-width:1279px) {
   .service-behind::before {
+    top: -3rem;
     font-size: 80px;
   }
 }
