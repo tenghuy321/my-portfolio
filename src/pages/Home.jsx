@@ -1,10 +1,10 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation'
-
+import profile from '../assets/images/profile.png'
 const Home = () => {
     return (
 
-        <section className='w-full h-full grid grid-cols-1 sm:grid-cols-2 gap-4 items-center '>
+        <section className='w-full h-full grid grid-cols-1 sm:grid-cols-2 gap-4 items-center justify-center'>
             <div className='w-full h-full flex flex-col items-start justify-center'>
                 <h1 className='text-[30px] xl:text-[40px] uppercase font-[500]'>Hi, I'm a freelancer</h1>
                 <TypeAnimation
@@ -27,7 +27,9 @@ const Home = () => {
                 </div>
             </div>
             <div className='w-full h-full flex items-center justify-center'>
-                <img src="" alt="img-1" />
+                <div className='px-4 pt-4 w-1/2 h-auto bg-[#d9bb59] rounded-md'>
+                    <img src={profile} alt="img-1" className='w-full h-auto' />
+                </div>
             </div>
         </section>
     )
