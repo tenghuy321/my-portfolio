@@ -74,7 +74,7 @@ const Skills = () => {
                                         styles={buildStyles({
                                             pathColor: progressData[index].color,
                                             textColor: "#111",
-                                            trailColor: "#e5e7eb",
+                                            trailColor: "#d9bb59",
                                         })}
                                     />
                                     <button className="px-4 py-2 border border-black rounded-full text-[12px] md:text-[16px] text-black transition-all duration-200 hover:tracking-wider hover:bg-black hover:text-white mt-4">{progressData[index].label}</button>
@@ -86,11 +86,11 @@ const Skills = () => {
                             const percentage = Math.min(item.value, 100);
                             return (
                                 <div key={index} className="my-10">
-                                    <div className="flex justify-between mb-1 text-sm font-medium text-gray-700">
+                                    <div className="flex justify-between mb-1 text-sm font-medium text-[#000]">
                                         <span>{item.label}</span>
                                         <span>{percentage}%</span>
                                     </div>
-                                    <div className="w-full bg-gray-200 rounded-full h-[2px]">
+                                    <div className="w-full bg-[#d9bb59] rounded-full h-[2px]">
                                         <div
                                             className="bg-[#000] h-full rounded-full transition-all duration-300 ease-in-out"
                                             style={{ width: `${percentage}%` }}

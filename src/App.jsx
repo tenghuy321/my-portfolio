@@ -29,7 +29,7 @@ function App() {
         </div>
 
         <div className="col-span-4 xl:col-span-2 w-full mt-[5rem] hidden lg:flex">
-          <hr className="w-[2px] h-full bg-gray-600" />
+          <hr className="w-[2px] h-full bg-[#d9bb59]" />
           <div className="w-full">
             <Navbar />
           </div>

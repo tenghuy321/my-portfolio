@@ -22,8 +22,8 @@ const Home = () => {
                 />
                 <p className='text-[16px] xl:text-[20px] font-[500]'>based Prey veng, Cambodia.</p>
                 <div className='w-full flex items-center gap-2 xl:gap-10 mt-10'>
-                    <a href="#" className='animate-bounce text-[14px] flex items-center justify-center xl:text-[18px] w-full xl:w-[200px] font-[700] bg-[#000] text-[#fff] px-8 py-3 rounded-full'>View Work</a>
-                    <a href="#" className='animate-bounce text-[14px] flex items-center justify-center xl:text-[18px] w-full xl:w-[200px] font-[700] border border-[#000] text-[#000] px-8 py-3 rounded-full'>Contact me</a>
+                    {/* <a href="#" className='animate-bounce text-[14px] flex items-center justify-center xl:text-[18px] w-full xl:w-[200px] font-[700] bg-[#000] text-[#fff] px-8 py-3 rounded-full'>View Work</a> */}
+                    <a href="https://t.me/Teng_huy" className='animate-bounce text-[14px] flex items-center justify-center xl:text-[18px] w-full xl:w-[200px] font-[700] border border-[#000] text-[#000] px-8 py-3 rounded-full'>Contact me</a>
                 </div>
             </div>
             <div className='w-full h-full flex items-center justify-center'>
