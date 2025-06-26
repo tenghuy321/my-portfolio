@@ -26,28 +26,28 @@ const services = [
             'API Integration Design'
         ]
     },
-    {
-        id: 3,
-        title: 'Illustration',
-        description: [
-            'Character Design',
-            'Icon Set',
-            'Illustration Guide',
-            'Illustration Set',
-            'Motion Graphic Design'
-        ]
-    },
-    {
-        id: 4,
-        title: 'App Developement',
-        description: [
-            'Android App',
-            'Ios App',
-            'Wireframing',
-            'Prototyping',
-            'Mobile App Design'
-        ]
-    }
+    // {
+    //     id: 3,
+    //     title: 'Illustration',
+    //     description: [
+    //         'Character Design',
+    //         'Icon Set',
+    //         'Illustration Guide',
+    //         'Illustration Set',
+    //         'Motion Graphic Design'
+    //     ]
+    // },
+    // {
+    //     id: 4,
+    //     title: 'App Developement',
+    //     description: [
+    //         'Android App',
+    //         'Ios App',
+    //         'Wireframing',
+    //         'Prototyping',
+    //         'Mobile App Design'
+    //     ]
+    // }
 ]
 
 const Services = () => {
@@ -63,7 +63,7 @@ const Services = () => {
             </div>
 
 
-            <div className='px-4 my-10 z-[999]'>
+            <div className='pr-2 my-10 z-[999]'>
                 <Swiper
                     breakpoints={{
                         0: {
@@ -73,7 +73,7 @@ const Services = () => {
                             slidesPerView: 2,
                         },
                     }}
-                    spaceBetween={30}
+                    spaceBetween={20}
                     modules={[Pagination, Autoplay]}
                     autoplay={{
                         delay: 2500,

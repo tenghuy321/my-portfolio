@@ -1,43 +1,16 @@
 import "./skills.css"
 import {
     CircularProgressbar,
-    buildStyles
 } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
-import { useEffect, useState } from "react";
 
 const Skills = () => {
-
-    const progressData = [
-        { value: 70, label: "Design", color: "#000" },
-        { value: 85, label: "Branding", color: "#000" },
-        { value: 70, label: "Ecommerce", color: "#000" },
-    ];
-
-    const [progress, setProgress] = useState(
-        progressData.map(() => 0) // start all at 0
-    );
-
-    useEffect(() => {
-        const animationInterval = setInterval(() => {
-            setProgress((prev) =>
-                prev.map((val, index) =>
-                    val < progressData[index].value ? val + 1 : val
-                )
-            );
-        }, 15); // Speed of animation
-
-        return () => clearInterval(animationInterval);
-    }, []);
-
-
     const progressItems = [
-        { label: 'Front-End Development', value: 70 },
-        { label: 'Back-End Development', value: 50 },
-        { label: 'Full-Stack Development', value: 75 },
-        { label: 'Database Management', value: 90 },
+        { label: 'HTML', value: 90 },
+        { label: 'CSS', value: 90 },
+        { label: 'React Js', value: 90 },
+        { label: 'JQuery', value: 70 },
         { label: 'Version Control', value: 90 },
-        { label: 'API Integration', value: 90 },
     ];
 
 
@@ -64,24 +37,6 @@ const Skills = () => {
                         </div>
                     </div>
                     <div className="p-4 md:p-6 w-full lg:w-full">
-
-                        <div className="flex gap-4 justify-center mt-4 md:mt-0">
-                            {progress.map((val, index) => (
-                                <div key={index} className="text-center">
-                                    <CircularProgressbar
-                                        value={val}
-                                        text={`${val}%`}
-                                        styles={buildStyles({
-                                            pathColor: progressData[index].color,
-                                            textColor: "#111",
-                                            trailColor: "#d9bb59",
-                                        })}
-                                    />
-                                    <button className="px-4 py-2 border border-black rounded-full text-[12px] md:text-[16px] text-black transition-all duration-200 hover:tracking-wider hover:bg-black hover:text-white mt-4">{progressData[index].label}</button>
-                                </div>
-                            ))}
-                        </div>
-
                         {progressItems.map((item, index) => {
                             const percentage = Math.min(item.value, 100);
                             return (

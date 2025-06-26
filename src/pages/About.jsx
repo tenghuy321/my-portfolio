@@ -15,7 +15,7 @@ const About = () => {
       <div className='grid grid-cols-1 md:grid-cols-12 gap-10 pr-0 sm:pr-5 my-10 items-center'>
         <div className='md:col-span-8 text-[12px] md:text-[14px] xl:text-[16px]'>
           <h1 className='text-[20px] sm:text-[30px] xl:text-[40px] font-[600]'>I'm Tenghuy, a Web Developer</h1>
-          <p>I'm a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Thousands of clients have procured exceptional results while working with me. Delivering work within time and budget which meets client's requirements is our moto.</p>
+          <p>I'm a designer & developer with a passion for web design. I enjoy developing simple, clean and slick websites that provide real value to the end user. Clients have procured exceptional results while working with me. Delivering work within time and budget which meets client's requirements is our moto.</p>
           <div className='flex items-center justify-start space-x-4 mt-5 md:mt-10'>
             <a href="https://www.facebook.com/ly.tenghuy.58" className="animate-bounce">
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#000000" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round">
